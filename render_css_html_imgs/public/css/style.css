@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 60%;
+    min-height:300px;
+    margin: auto;
+    border: 1px solid #000;
+}
+.header
+{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1
+{
+    color: white;
+    padding: 10px;
+}
+.slider 
+{
+    width: 100%;
+    /* height: 500px; */
+}
+.slider img
+{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    object-fit: cover;
+
+}

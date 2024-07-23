@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater_application</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="calc.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <div class="heading">
+            <h1>Calculater App</h1>
+        </div>
+
+        <div class="content">
+            <div class="photo">
+                <img src="calculater_image.gif" alt="calculater_img">
+            </div>
+
+            <div class="side_content">
+                <form>
+                    <table>
+                        <tr>
+                            <td> <label for="n1">Enter The first number:</label></td>
+                            <td><input type="text" id="n1" autocomplete="off"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="n2">Enter The second number:</label></td>
+                            <td><input type="text" id="n2" autocomplete="off"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="op">Select Any Task:</label></td>
+                            <td><select id="op">
+                                    <option value="select">Select</option>
+                                    <option value="+">Addition</option>
+                                    <option value="-">Subtraction</option>
+                                    <option value="*">multiplication</option>
+                                    <option value="/">divide</option>
+                                </select></td>
+                        </tr>
+
+                        <tr>
+                            <td> <label for="n1">Find Result:</label></td>
+                            <td><input type="text" id="res" autocomplete="off"></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="button" value="Do Task" id="do_task">
+                                <input type="button" value="Clear Field" id="clear" onclick="clearFields()">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
